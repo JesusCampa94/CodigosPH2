@@ -1,0 +1,11 @@
+*{
+	box-sizing: border-box;
+}
+
+canvas{
+	border: .1em solid #FAC;
+}
+
+section{
+	display: inline-block;
+}
