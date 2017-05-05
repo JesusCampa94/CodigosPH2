@@ -1,0 +1,40 @@
+*
+{
+	box-sizing: border-box;
+}
+
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+section
+{
+	border: 2px solid #FAC;
+	width: 60%;
+	padding: 1em;
+}
+
+	section>div
+	{
+		border: 1px solid #263238;
+	}
+
+	section form>div>span
+	{
+		display: inline-block;
+	}
+
+	section form>div>input
+	{
+		margin: 0 10px;
+	}
+
+		section form>div>input[type="text"]
+		{
+			border: none;
+			border-bottom: 1px solid #263238;
+			width: 1.5em;
+			text-align: center;
+		}

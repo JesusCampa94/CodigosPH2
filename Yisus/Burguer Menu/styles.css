@@ -1,0 +1,16 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	min-width: 320px;
+	background-color: #ECEFF1;
+}
+
+	body>header
+	{
+		background-color: #FAC;
+		
+	}

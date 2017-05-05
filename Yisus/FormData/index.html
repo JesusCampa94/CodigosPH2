@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>FormData</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>FormData</h1>
+	<section>
+		<h2>Login</h2>
+		<form onsubmit="return hacerLogin(this);">
+			<div>
+				<label for="login">Login</label>
+				<input type="text" id="login" name="login">
+			</div>
+			<div>
+				<label for="pwd">Contraseña</label>
+				<input type="password" id="pwd" name="pwd">
+			</div>
+			<div>
+				<input type="submit" value="Login">
+			</div>
+		</form>
+		<p></p>
+	</section>
+	<section>
+		<h2>Subir foto</h2>
+		<img src="image.png" height="300" width="300" alt="" onclick="this.parentNode.querySelector('[type=file]').click();">
+		<input type="file" accept="image/*" onchange="mostrarFoto(this);">
+		<textarea placeholder="Descripción"></textarea>
+		<button onclick="enviarFoto(this);">Enviar foto</button>
+	</section>
+</body>
+</html>

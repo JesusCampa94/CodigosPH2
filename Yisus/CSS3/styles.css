@@ -1,0 +1,42 @@
+#title-container > h1
+{
+	transition: all .75s ease-in-out;
+}
+	#title-container:hover > h1
+	{
+		transform: translateY(9001px);
+	}
+
+section>article:first-of-type
+{
+	background: linear-gradient(to bottom right, #FFF, #009688, #FFF);
+	color: #ECEFF1;
+	transform-origin: top right;
+}
+
+	section>article:first-of-type:hover
+	{
+		transform: rotate(-84deg);
+	}
+
+section>article:nth-of-type(2)
+{
+	background: radial-gradient(ellipse, #FAC, #FFF);
+	transform-origin: center;
+}
+	section>article:nth-of-type(2):hover
+{
+	transform: rotate(3600deg);
+	/*transform: scale(50);
+	opacity: 0;*/
+}
+
+section>article
+{
+	margin: 1em auto;
+	width: 60%;
+	padding: .5em;
+	color: #263238;
+	border: .1em solid #009688;
+	transition: all 2s ease-in-out 2s;
+}

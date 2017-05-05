@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Salsa');
+
+body
+{
+	min-height: 100vh;
+	font-family: 'Salsa', cursive;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Ejemplo AJAX</h1>
+	<section>
+		<footer>
+			<form onsubmit="return mostrarEntradas(this);">
+				<div>
+					<span>Página:</span>
+					<input type="text" name="pagina" id="pagina" value="0">
+					<span>de</span>
+					<input type="text" name="longPagina" id="longPagina" value="4">
+					<input type="submit" value="OK">
+				</div>				
+			</form>
+		</footer>
+		<h2>Entradas</h2>
+		<div></div>
+	</section>
+</body>
+</html>

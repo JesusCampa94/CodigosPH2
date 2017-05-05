@@ -1,0 +1,3 @@
+Menú desplegable
+
+Usar un checkbox (oculto) y modificarlo con su label, que girará al estar junto a un checkbox activo. También se animará la propiedad max-height del contenedor que contenga el menú.

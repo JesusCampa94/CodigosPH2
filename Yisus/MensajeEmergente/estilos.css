@@ -1,0 +1,32 @@
+*
+{
+	box-sizing: border-box;
+}
+
+::selection
+{
+	background: orange;
+}
+
+.capa-fondo
+{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, .7);
+}
+
+.capa-frente
+{
+	position: fixed;
+	top: 5em;
+	left: 50%;
+	border: 3px dashed #FAC;
+	width: 20em;
+	padding: 1em;
+	background-color: #FFF;
+	transform: translateX(-50%);
+	text-align: center;
+}

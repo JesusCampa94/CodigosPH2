@@ -1,0 +1,9 @@
+*
+{
+	box-sizing: border-box;
+}
+
+canvas
+{
+	border: 3px dashed #FAC;
+}
