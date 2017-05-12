@@ -1,0 +1,21 @@
+*
+{
+	box-sizing: border-box;
+}
+
+::selection
+{
+	background-color: #FAC;
+}
+
+
+section
+{
+	display: inline-block;
+	float: left;
+	margin: 1em;
+	border: 1px solid #009688;
+	width: 45%;
+	min-height: 30em;
+	padding: .5em;
+}

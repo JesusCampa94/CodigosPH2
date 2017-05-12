@@ -8,3 +8,8 @@ canvas
 	border: 3px solid #009688;
 	border-radius: 6px;
 }
+
+	canvas[data-down]
+	{
+		cursor: move;
+	}
