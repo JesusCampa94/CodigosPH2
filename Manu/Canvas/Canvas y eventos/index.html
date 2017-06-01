@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+		<title>Canvas y eventos</title>
+	</head>
+	<body>
+		<h1>Canvas y eventos</h1>
+		<section>
+			<h2>Canvas 1</h2>
+			<canvas id="cv01" width="480" height="480" onclick="mouseClick(event);" onmousedown="mouse_down(event);" onmouseup="mouse_up(event);" onmousemove="mouse_move(event);"></canvas>
+			<footer>
+				<button onclick="redibujarCanvas();">Dibujar cuadrícula</button>
+			</footer>
+		</section>
+	</body>
+</html>

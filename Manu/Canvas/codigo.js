@@ -7,7 +7,7 @@ function cuadrado()
 	ctx.lineWidth = 4;
 	ctx.fillStylr = '#0a0';
 	ctx.strokeRect(100, 100, 200, 100);
-	ctx.fillRect(100, 100, 200, 100);
+	//ctx.fillRect(100, 100, 200, 100);
 }
 
 function rotar()
